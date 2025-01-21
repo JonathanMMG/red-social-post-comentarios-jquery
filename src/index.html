@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Social</title>
+    <!-- Enlace al archivo de estilos CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Enlace a la biblioteca de iconos de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Contenedor principal de la aplicación -->
+    <div class="container">
+        <!-- Título principal de la aplicación -->
+        <h1>Publicaciones Sociales</h1>
+        <!-- Campo de búsqueda para filtrar publicaciones por título -->
+        <input type="text" id="search" placeholder="Buscar por título...">
+        <!-- Formulario para agregar una nueva publicación -->
+        <div class="post-form">
+            <input type="text" id="post-title" placeholder="Título de la publicación">
+            <textarea id="post-description" placeholder="Descripción de la publicación"></textarea>
+            <button id="add-post">Agregar Publicación</button>
+        </div>
+        <!-- Contenedor donde se mostrarán las publicaciones -->
+        <div id="posts-container"></div>
+    </div>
+
+    <!-- Enlace a la biblioteca jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Enlace a la biblioteca SweetAlert2 para alertas bonitas -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Enlace al archivo JavaScript que maneja las publicaciones -->
+    <script src="js/posts.js"></script>
+    <!-- Enlace al archivo JavaScript que maneja los comentarios -->
+    <script src="js/comments.js"></script>
+    <!-- Enlace al archivo JavaScript principal de la aplicación -->
+    <script src="js/main.js"></script>
+</body>
+</html>

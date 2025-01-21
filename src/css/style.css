@@ -1,0 +1,131 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Campo de búsqueda */
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Formulario de nueva publicación */
+.post-form input,
+.post-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.post-form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.post-form button:hover {
+    background: #0056b3;
+}
+
+/* Estilos de las publicaciones */
+.post {
+    background: #e9ecef;
+    padding: 15px;
+    border-left: 5px solid #007bff;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.post h2 {
+    margin: 0;
+    color: #007bff;
+}
+
+.post p {
+    margin: 5px 0;
+}
+
+.post small {
+    color: #6c757d;
+}
+
+/* Botones de acción en las publicaciones */
+.post .actions {
+    margin-top: 10px;
+}
+
+.post .actions button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.post .actions button:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de los comentarios */
+.comment {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment .actions {
+    text-align: right;
+}
+
+.comment .actions button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.comment .actions button:hover {
+    text-decoration: underline;
+}
